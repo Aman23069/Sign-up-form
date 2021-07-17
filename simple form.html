@@ -1,0 +1,71 @@
+<!Doctype html>
+<html>
+ <head>
+   <title>Form entry</title>
+     <style>
+	   body{
+	   background-image:radial-gradient(circle,blue,red,blue);
+	   }
+	   form{
+	   border:2px soild black;
+	   
+	   }
+	   legend{
+	   font-size:50px
+	   }
+     </style>
+   
+ </head>
+   <body>
+    <div class="main">
+     <form align="center">
+	  <Fieldset>
+	    <legend>Personal Information</legend>
+		First Name:
+		<input type="text" Maxlength="30" placeholder="Your good Name" required><br><br>
+		Last Name:
+		<input type="text" Maxlength="10" placeholder="Your Surname" required><br><br>
+		Date OF Birth:
+		<input type="Date"><br><br>
+		Gender:
+		<select>
+		   <option>Male</option>
+		   <option>Female</option>
+		   <option>Other</option>
+		</select>
+	   </Fieldset>
+	   <Fieldset>
+		<legend>Account Information</legend>
+		Email:
+		<input type="Email" size="25"placeholder="This will be your user name" required><br><br>
+		Re-Type-Email:
+		<input type="Email" size="25"placeholder="This will be your user name" required><br><br>
+		Password:
+		<input type="Password" placeholder="Must contain atlest 1 capital & 1 small and 1 speacial charecter  " required><br><br>
+		Re-Type-Password:
+		<input type="Password"><br><br>
+		Security Question:
+		<select><
+		   <option>Who is your favourite Actor</option>
+		   <option>Name your favourite Book</option>
+		   <option>who is your favourite cricket player</option>
+		 </select>  <br><br>
+		 Security Answer:
+		 <input type="text" placeholder="Remember this answer" required>
+		 </Fieldset>
+		 <Fieldset>
+		 <legend>Contact Information</legend>
+		 Address:
+		 <input type="text" placeholder="Type Your local address" required><br><br>
+		 City:
+		 <input type="text" placeholder="From which city you belong" size="30"><br><br>
+		 state:
+		 <input type="text" placeholder="From which state you belong" size="30"><br><br>
+		 Phone:
+		 <input type="number" Maxlength="12"><br><hr>
+		 <input type="submit" value="Submit" style="font-size:30px align:center">
+		 </Fieldset>
+	  </form>
+	  </div>
+   </body>
+</html>
